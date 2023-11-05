@@ -34,15 +34,23 @@ color = Color(0, 0, 0, 0.501961)
 position = Vector2(200, 200)
 linear_velocity = Vector2(800, 550)
 
+[node name="Ball2" parent="." instance=ExtResource("4")]
+position = Vector2(760, 560)
+linear_velocity = Vector2(800, 550)
+
 [node name="Label" type="Label" parent="."]
-layout_mode = 0
+layout_mode = 1
+anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 offset_bottom = -200.0
+grow_horizontal = 2
+grow_vertical = 2
 theme_override_font_sizes/font_size = 60
 text = "Brick Breaker"
 horizontal_alignment = 1
 vertical_alignment = 1
+metadata/_edit_lock_ = true
 
 [node name="Play" type="Button" parent="."]
 layout_mode = 1

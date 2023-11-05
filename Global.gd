@@ -17,7 +17,6 @@ var sway_period = 0.1
 
 var default_starting_in = 4
 var default_lives = 5
-
 func _ready():
 	process_mode = PROCESS_MODE_ALWAYS
 	randomize()
